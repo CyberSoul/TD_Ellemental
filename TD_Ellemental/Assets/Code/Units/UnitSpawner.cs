@@ -37,7 +37,7 @@ public class UnitSpawner : MonoBehaviour
 
     protected void Spawn()
     {
-        UnitEnemy newUnit = Instantiate<UnitEnemy>( CurrentSpawnUnit.Prefab, transform.position, transform.rotation);
+        UnitEnemy newUnit = Instantiate( CurrentSpawnUnit.Prefab, transform.position, transform.rotation);
         ++m_spawnedAmount;
     }
 

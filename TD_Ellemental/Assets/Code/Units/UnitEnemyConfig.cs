@@ -4,7 +4,7 @@
 [System.Serializable]
 public class UnitEnemyConfig //: ScriptableObject
 {
-    public GameObject Prefab;
+    public UnitEnemy Prefab;//public GameObject Prefab;
     public int HP;
     public float MoveSpeed;
     public float Defense;
