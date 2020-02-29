@@ -10,6 +10,7 @@ TagManager:
   - Bullet
   - Spawner
   - EndPoint
+  - OnGroundObj
   layers:
   - Default
   - TransparentFX
@@ -23,7 +24,7 @@ TagManager:
   - Tower
   - Unit
   - EndPoint
-  - 
+  - OnGroundObj
   - 
   - 
   - 
